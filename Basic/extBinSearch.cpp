@@ -6,7 +6,7 @@ using std::cout;
 using std::vector;
 using std::sort;
 
-// Time complexity: O(log N)
+// Time complexity: O(log₂ N)
 // Space complexity: O(1)
 
 // Tìm vị trí đầu tiên của số cần tìm (nếu có)
