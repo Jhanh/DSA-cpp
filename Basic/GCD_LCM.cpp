@@ -2,6 +2,9 @@
 using std::cin;
 using std::cout;
 
+// Time complexity: O(log(min(a, b)))
+// Space complexity: O(1)
+
 // Ước chung lớn nhất
 // GCD(a, b) = GCD(b, a % b)
 long long gcd (long long a, long long b){
