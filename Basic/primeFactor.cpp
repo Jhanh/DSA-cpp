@@ -2,7 +2,7 @@
 using std::cin;
 using std::cout;
 
-// Time complexity: O(log N)
+// Time complexity: O(sqrt(N))
 // Space complexity: O(1)
 
 void primeFactorization (long long n){
