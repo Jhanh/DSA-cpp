@@ -5,6 +5,9 @@ using std::cout;
 using std::vector;
 #define limit 10000001
 
+// Time complexity: O(N * log(logN))
+// Space complexity: O(N) với N = limit
+
 vector<bool> prime(limit, true);
 void eratosthenes(){
     prime[0] = prime[1] = false;
