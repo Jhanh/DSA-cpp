@@ -8,7 +8,7 @@ using std::vector;
 // Space complexity: O(N)
 
 void prefixSum (vector<long long> &v){
-    for (int i = 1; i < v.size(); i++){
+    for (int i = 1; i < (int)v.size(); i++){
         v[i] += v[i-1];
     }
 }
