@@ -12,7 +12,7 @@ int main(){
     vector<int> a(n), b(m);
     for (int i = 0; i < n; i++) cin >> a[i];
     for (int j = 0; j < m; j++) cin >> b[j];
-
+    
     int i = 0, j = 0; // i trỏ vào mảng a còn j trỏ vào mảng b
     vector<int> v;
     while (i < n && j < m){
