@@ -23,7 +23,7 @@ int main(){
         cin >> v[i];
     }
     prefixSum(v);
-
+    
     int q; cin >> q;
     while(q--){
         int left, right;
